@@ -5,7 +5,10 @@
         <meta charset="utf-8">
         <title>Genus</title>
         <style>
-            .menu{ background-color: aquamarine;
+            .menu{ position: absolute;
+                left: 0px;
+                top: 0px;
+                background-color: whitesmoke;
                 font-style: normal;
                 font-weight: bold;
                 font-size: 15px;
@@ -20,8 +23,12 @@
             	color:#f00;
 	        }
 
-            .corpo{
-                background-color: whitesmoke;
+            .corpo{ position: absolute;
+                left: 0px;
+                top:51px;
+                height: 200px;
+                width: max-content;
+                background-color: white;
                 color: black;
                 font-weight: 200px;
                 font-family: cursive;
@@ -34,8 +41,20 @@
                 background-color: gray;
                 text-align: center;
             }
-            figure{ position: absolute;
-                height: 200px;
+
+            figure { position: absolute;
+                top: 10px;
+                right: 0px;
+                right: 0px;
+                left: 0px;
+             width: 30%;
+             text-align: center;
+             font-style: italic;
+             font-size: smaller;
+             text-indent: 0;
+             border: thin silver solid;
+             margin: 0.5em;
+             padding: 0.5em;
             }
 
         </style>
@@ -44,6 +63,7 @@
 
         <!--Inicio do Menu-->
         <div class="menu">
+            =
             <a href="inicio.html">Inicio</a>
             <a href="sobre.html">Sobre</a>
             <a href="cursos.html">Cursos</a>
@@ -57,12 +77,19 @@
             <br><br>
         </div>
         <!--Fim do Menu-->
-        <div class="imagem1"><img src="imagem1.jpg"></div>
+       
         <!--Inicio do Body-->
         <div class="corpo">
-            <p>Olá...</p>
+            <!--<div><img src="imagem1.jpg" style="height: 100px; position: absolute;top: 50px;left: 20px;"></div>
+            -->
+                <p>Olá...</p>
             <p>Este site foi criado para dar-lhe capacitação técnica, sem sair do conforto de sua casa.<br>
             </p>
+            <figure>
+                <img src="imagem2.jpg">
+                <figcaption>Estude e Trabalhe em no conforte de sua casa</figcaption>
+            </figure>
+            
         </div>
         
         <!--Fim do Body-->
