@@ -8,6 +8,7 @@
             .menu{ position: absolute;
                 left: 0px;
                 top: 0px;
+                width: 99%;
                 background-color: whitesmoke;
                 font-style: normal;
                 font-weight: bold;
@@ -26,15 +27,20 @@
             .corpo{ position: absolute;
                 left: 0px;
                 top:51px;
-                height: 200px;
-                width: max-content;
+                height: 400px;
+                width: 99%;
                 background-color: white;
                 color: black;
                 font-weight: 200px;
                 font-family: cursive;
+                overflow: hidden;
             }
 
-            .roda{
+            .roda{ position: absolute;
+                bottom: 50px;
+                height: 80px;
+                width: 99%;
+                text-align: center;
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                 font-size: 15px;
                 font-weight: 600;
@@ -43,17 +49,23 @@
             }
 
             figure { position: absolute;
-                top: 80px;
-                right: 100px;
-                left: 500px;
-             width: 30%;
-             text-align: center;
-             font-style: italic;
-             font-size: smaller;
-             text-indent: 0;
-             border: thin silver solid;
-             margin: 0.5em;
-             padding: 0.5em;
+                top: 100px;
+                right: 10px;
+                width: 15%;
+                text-align: center;
+                font-style: italic;
+                font-size: smaller;
+                text-indent: 0;
+                border: thin silver solid;
+                margin: 0.5em;
+                padding: 0.5em;
+                float: right;
+            }
+
+            .ultima{
+                position: absolute;
+                bottom: 0px;
+                right: 10px;
             }
 
         </style>
@@ -62,6 +74,7 @@
 
         <!--Inicio do Menu-->
         <div class="menu">
+            <br>
             =
             <a href="inicio.html">Inicio</a>
             <a href="sobre.html">Sobre</a>
@@ -79,22 +92,39 @@
        
         <!--Inicio do Body-->
         <div class="corpo">
-            <!--<div><img src="imagem1.jpg" style="height: 100px; position: absolute;top: 50px;left: 20px;"></div>
-            -->
                 <p>Olá...</p>
             <p>Este site foi criado para dar-lhe capacitação técnica, sem sair do conforto de sua casa.<br>
             </p>
             <figure>
-                <img src="imagem2.jpg">
+                <img src="imagem2.jpg" width="180">
                 <figcaption>Estude e Trabalhe em no conforte de sua casa</figcaption>
             </figure>
-            
+
+            <p>
+            De onde isso vem?
+            Ao contrário da crença popular, Lorem Ipsum não é apenas um texto aleatório. <br>
+            Ele tem raízes em uma peça da literatura latina clássica de 45 aC, perfazendo <br>
+            mais de 2000 anos. Richard McClintock, professor de latim no Hampden-Sydney 
+            College, na Virgínia, procurou uma das palavras mais obscuras em latim, <br>
+            consectetur, de uma passagem de Lorem Ipsum, e examinando as citações da palavra <
+            na literatura clássica, descobriu a fonte incontestável. Lorem Ipsum vem das <br>
+            seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" (Os extremos do bem e<br> 
+            do mal) de Cícero, escritas em 45 aC. Este livro é um tratado sobre a teoria da<
+             ética, muito popular durante o Renascimento. A primeira linha de Lorem Ipsum, <br>
+             "Lorem ipsum dolor sit amet ..", vem de uma linha na seção 1.10.32.<br>    
+            </p>
+
+            <div class="ultima">
+                <img src="imagem1.jpg" style="height: 100px; width: 230px;">
+            </div>
+
         </div>
         
         <!--Fim do Body-->
 
         <!--Inicio do Rodapé-->
         <div class="roda">
+            <br><br>
             André & Christian
         </div>
         <!--Fim do Rodapé-->
