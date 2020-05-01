@@ -160,3 +160,7 @@
     -webkit-transform: translate3d(var(--carousel-offset-right), 0, 0);
     transform: translate3d(var(--carousel-offset-right), 0, 0);
 }
+/*Imagem*/
+    img{
+        align-content: center;
+    }
